@@ -31,7 +31,6 @@
     "/var/spool/mail/root": 1 message 1 new
 
 
-    >N 1 SOROUR Wed Dec 7 13:52 18/608 "hello root"
 
 1. Use `systemctl `utility to stop `postfix` service
 
@@ -58,7 +57,6 @@ Heirloom Mail version 12.5 7/5/10. Type ? for help.
 
 "/var/spool/mail/root": 2 messages 1 new 2 unread
 
-U 1 SOROUR Wed Dec 7 13:52 19/618 "hello root"
 
 >N 2 root Wed Dec 7 14:01 18/608 "hello again ya root"
 
@@ -101,7 +99,7 @@ $ sudo grub2-mkconfig -o bootgrub2/grub.cfg
 
 1. Install a new printer called "tty12" using web utility. Have the printer queue be "/dev/tty12" and specify a "Text Only Printer" for its model type.
 
-    $ sudo usermod -a -G sys sorour
+    $ sudo usermod -a -G sys reem
 
 
 
