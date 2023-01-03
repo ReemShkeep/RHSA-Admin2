@@ -5,13 +5,12 @@
 
 **Lab 1**
 
-
-#     1. Use systemctl to view the status of all the system services.
+ 1. Use systemctl to view the status of all the system services.
 
  systemctl status
 
 
-#     2. Change the default run level back to multi-user.target and reboot.
+2. Change the default run level back to multi-user.target and reboot.
 sudo systemctl get-default
 
 systemctl set-default multi-user
