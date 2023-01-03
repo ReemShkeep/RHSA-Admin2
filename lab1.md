@@ -6,17 +6,17 @@
 **Lab 1**
 
 
+#     1. Use systemctl to view the status of all the system services.
 
-1. Use `systemctl` to view the status of all the system services.
-
-    
-###############IMAGE###############IMAGE1.png "###############IMAGE_tooltip")
+ systemctl status
 
 
-1. Change the default run level back to multi-user.target and reboot.
+#     2. Change the default run level back to multi-user.target and reboot.
+sudo systemctl get-default
 
-    
-###############IMAGE###############IMAGE2.png "###############IMAGE_tooltip")
+systemctl set-default multi-user
+sudo reboot -i 
+systemctl set-default graphical.target 
 
 
 1. Send mail to the root user.
